@@ -1,57 +1,75 @@
-# Introducción a la Ciencia de Datos
+# Introduccion a la Ciencia de Datos
 
-Repositorio de soluciones desarrolladas por **Brayan López** para el curso de **Introducción a la Ciencia de Datos** de la Maestría en Ingeniería Electrónica (MaIE) de la **Universidad de Nariño**.
+Repositorio de talleres y soluciones del curso **Introduccion a la Ciencia de Datos** (Maestria en Ingenieria Electronica - Universidad de Narino).
 
-## Descripción
+El material esta organizado por modulos (`Taller_1` a `Taller_5`) y cada taller incluye:
+- notebook base/enunciado (`icd_...`)
+- notebook de solucion (`Solucion_...`)
 
-Este repositorio contiene las soluciones a los talleres y ejercicios prácticos del curso, con enfoque en Python, Pandas y análisis de datos. El material está organizado por módulos y talleres para facilitar el seguimiento del curso.
+## Contenido del curso
+
+| Taller | Tema principal | Notebooks |
+|---|---|---|
+| `Taller_1` | Primeros pasos con Python y Pandas | `icd_taller1_python_pandas.ipynb`, `Solucion_icd_taller1_Brayan_Lopez.ipynb` |
+| `Taller_2` | Variables aleatorias discretas y simulacion Monte Carlo | `icd_taller2_variables_aleatorias.ipynb`, `Solucion_taller2_variables_aleatorias.ipynb` |
+| `Taller_3` | Variables aleatorias continuas, metodo de la inversa, analisis de retornos (S&P 500) | `icd_taller3_va_continuas.ipynb`, `Solucion_taller3_va_continuas.ipynb` |
+| `Taller_4` | Estimacion y ajuste de distribuciones (exponencial, beta, log-normal, metricas y pruebas) | `icd_taller4_estimacion_distribuciones.ipynb`, `Solucion_taller4_estimacion_distribuciones.ipynb` |
+| `Taller_5` | Limpieza de datos con Pandas (duplicados, nulos, outliers y buenas practicas) | `icd_taller5_limpieza_datos.ipynb`, `Solucion_taller5_limpieza_datos.ipynb` |
 
 ## Estructura del repositorio
 
-```
+```text
 introduccion-ciencia-datos/
-├── Taller_1/
-│   ├── icd_taller1_python_pandas.ipynb      # Enunciado del taller
-│   └── Solucion_icd_taller1_Brayan_Lopez.ipynb  # Solución
-└── README.md
+|-- Taller_1/
+|-- Taller_2/
+|-- Taller_3/
+|-- Taller_4/
+|-- Taller_5/
+|-- env_icd/
+`-- README.md
 ```
-
-## Contenido
-
-| Taller | Tema | Descripción |
-|--------|------|-------------|
-| Taller 1 | Python y Pandas | Primeros pasos con Python, variables, operaciones matemáticas y manipulación de datos con Pandas |
 
 ## Requisitos
 
-- Python 3.8 o superior
-- Jupyter Notebook o JupyterLab (o Google Colab)
-- Librerías principales: `pandas`, `numpy`
+- Python 3.10+ (recomendado)
+- Jupyter Notebook o JupyterLab
+- Opcional: Google Colab
 
-### Instalación de dependencias
+## Dependencias
+
+Librerias usadas a lo largo de los talleres:
+- `numpy`
+- `pandas`
+- `matplotlib`
+- `scipy`
+- `seaborn`
+- `yfinance`
+
+Instalacion sugerida:
 
 ```bash
-pip install pandas numpy jupyter
+pip install numpy pandas matplotlib scipy seaborn yfinance jupyter
 ```
 
-O usar el entorno virtual incluido (`env_icd`) si está disponible.
+Si ya tienes el entorno `env_icd`, puedes activarlo y trabajar desde ahi.
 
-## Cómo ejecutar
+## Uso
 
-1. Clona el repositorio o descarga los archivos
-2. Abre los notebooks con Jupyter o [Google Colab](https://colab.research.google.com/)
-3. Ejecuta las celdas en orden
+1. Clona o descarga este repositorio.
+2. Abre el taller que quieras trabajar (`Taller_1` ... `Taller_5`).
+3. Ejecuta primero el notebook `icd_...` (enunciado/base).
+4. Usa el notebook `Solucion_...` para comparar o validar resultados.
 
-## Universidad de Nariño
+## Notas importantes
 
-Programa de **Maestría en Ingeniería Electrónica (MaIE)**  
-Universidad de Nariño - Pasto, Colombia
+- Algunos talleres descargan datos de internet (por ejemplo, `yfinance` y datasets publicos), asi que requieren conexion.
+- Los notebooks estan pensados para aprendizaje practico y ejecucion secuencial de celdas.
 
 ## Autor
 
-**Brayan López**  
-Estudiante de Maestría en Ingeniería Electrónica - Universidad de Nariño
+**Brayan Lopez**  
+Maestria en Ingenieria Electronica - Universidad de Narino
 
 ---
 
-*Nota: Este material es de uso educativo. Si encuentras errores o tienes sugerencias, no dudes en abrir un issue.*
+Material con fines educativos.
