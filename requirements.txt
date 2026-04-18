@@ -1,0 +1,17 @@
+# Núcleo usado en los notebooks (import directo).
+# Instalar SOLO con el pip del venv:
+#   .\.venv\Scripts\pip install -r requirements.txt
+#
+# Kernel para notebooks (ipykernel → tornado): si falla WinError 5, cierra
+# kernels de Python en Cursor, reinicia el IDE y luego:
+#   .\.venv\Scripts\pip install ipykernel
+# Jupyter en navegador (opcional):
+#   .\.venv\Scripts\pip install jupyter
+
+matplotlib>=3.7.0
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+seaborn>=0.13.0
+statsmodels>=0.14.0
+yfinance>=0.2.28
