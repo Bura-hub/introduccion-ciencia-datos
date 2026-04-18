@@ -1,20 +1,30 @@
 # Introduccion a la Ciencia de Datos
 
-Repositorio de talleres y soluciones del curso **Introduccion a la Ciencia de Datos** (Maestria en Ingenieria Electronica - Universidad de Narino).
+Repositorio de talleres y soluciones del curso **Introduccion a la Ciencia de Datos**
+(Maestria en Ingenieria Electronica - Universidad de Narino).
 
-El material esta organizado por modulos (`Taller_1` a `Taller_5`) y cada taller incluye:
-- notebook base/enunciado (`icd_...`)
-- notebook de solucion (`Solucion_...`)
+Este repositorio contiene:
+- Talleres 1 a 5 (base + solucion).
+- Semana 06 (retos sobre S&P 500, base + solucion).
+- Semana 07 (Modelos ARMA y Filtro de Wiener, base + solucion).
 
-## Contenido del curso
+## Contenido actual
 
-| Taller | Tema principal | Notebooks |
-|---|---|---|
-| `Taller_1` | Primeros pasos con Python y Pandas | `icd_taller1_python_pandas.ipynb`, `Solucion_icd_taller1_Brayan_Lopez.ipynb` |
-| `Taller_2` | Variables aleatorias discretas y simulacion Monte Carlo | `icd_taller2_variables_aleatorias.ipynb`, `Solucion_taller2_variables_aleatorias.ipynb` |
-| `Taller_3` | Variables aleatorias continuas, metodo de la inversa, analisis de retornos (S&P 500) | `icd_taller3_va_continuas.ipynb`, `Solucion_taller3_va_continuas.ipynb` |
-| `Taller_4` | Estimacion y ajuste de distribuciones (exponencial, beta, log-normal, metricas y pruebas) | `icd_taller4_estimacion_distribuciones.ipynb`, `Solucion_taller4_estimacion_distribuciones.ipynb` |
-| `Taller_5` | Limpieza de datos con Pandas (duplicados, nulos, outliers y buenas practicas) | `icd_taller5_limpieza_datos.ipynb`, `Solucion_taller5_limpieza_datos.ipynb` |
+| Carpeta | Tema principal | Notebook base | Notebook solucion |
+|---|---|---|---|
+| `Taller_1` | Python y Pandas | `icd_taller1_python_pandas.ipynb` | `Solucion_icd_taller1_Brayan_Lopez.ipynb` |
+| `Taller_2` | Variables aleatorias discretas y Monte Carlo | `icd_taller2_variables_aleatorias.ipynb` | `Solucion_taller2_variables_aleatorias.ipynb` |
+| `Taller_3` | Variables aleatorias continuas y analisis de retornos | `icd_taller3_va_continuas.ipynb` | `Solucion_taller3_va_continuas.ipynb` |
+| `Taller_4` | Estimacion y ajuste de distribuciones | `icd_taller4_estimacion_distribuciones.ipynb` | `Solucion_taller4_estimacion_distribuciones.ipynb` |
+| `Taller_5` | Limpieza de datos con Pandas | `icd_taller5_limpieza_datos.ipynb` | `Solucion_taller5_limpieza_datos.ipynb` |
+| `Semana 06 - Retos S&P500` | Retos aplicados al indice S&P 500 | `Ciencia de Datos - Semana 06 - Retos S&P500.ipynb` | `BRAYAN_LOPEZ_Ciencia de Datos - Semana 06 - Retos S&P500.ipynb` |
+| `Semana 07 - Arma & Filtro Wiener` | Modelado ARMA y prediccion con Filtro de Wiener | `Ciencia_de_Datos_Semana_7_Modelos_ARMA.ipynb` y `Ciencia_de_Datos_Semana_07_Filtro_de_Wiener.ipynb` | `BRAYAN_LOPEZ_Ciencia_de_Datos_Semana_7_Modelos_ARMA.ipynb` y `BRAYAN_LOPEZ_Ciencia_de_Datos_Semana_07_Filtro_de_Wiener.ipynb` |
+
+## Estado de Semana 07
+
+Los notebooks de solucion de Semana 07 se encuentran actualizados y consistentes:
+- `BRAYAN_LOPEZ_Ciencia_de_Datos_Semana_7_Modelos_ARMA.ipynb`
+- `BRAYAN_LOPEZ_Ciencia_de_Datos_Semana_07_Filtro_de_Wiener.ipynb`
 
 ## Estructura del repositorio
 
@@ -25,7 +35,10 @@ introduccion-ciencia-datos/
 |-- Taller_3/
 |-- Taller_4/
 |-- Taller_5/
+|-- Semana 06 - Retos S&P500/
+|-- Semana 07 - Arma & Filtro Wiener/
 |-- env_icd/
+|-- requirements.txt
 `-- README.md
 ```
 
@@ -35,35 +48,34 @@ introduccion-ciencia-datos/
 - Jupyter Notebook o JupyterLab
 - Opcional: Google Colab
 
-## Dependencias
+## Instalacion de dependencias
 
-Librerias usadas a lo largo de los talleres:
-- `numpy`
-- `pandas`
-- `matplotlib`
-- `scipy`
-- `seaborn`
-- `yfinance`
-
-Instalacion sugerida:
+Instalacion recomendada desde archivo de requisitos:
 
 ```bash
-pip install numpy pandas matplotlib scipy seaborn yfinance jupyter
+pip install -r requirements.txt
 ```
 
-Si ya tienes el entorno `env_icd`, puedes activarlo y trabajar desde ahi.
+Dependencias principales declaradas:
+- `matplotlib`
+- `numpy`
+- `pandas`
+- `scipy`
+- `seaborn`
+- `statsmodels`
+- `yfinance`
 
 ## Uso
 
 1. Clona o descarga este repositorio.
-2. Abre el taller que quieras trabajar (`Taller_1` ... `Taller_5`).
-3. Ejecuta primero el notebook `icd_...` (enunciado/base).
-4. Usa el notebook `Solucion_...` para comparar o validar resultados.
+2. Abre la carpeta del taller o semana que quieras trabajar.
+3. Ejecuta primero el notebook base/enunciado.
+4. Usa el notebook de solucion para comparar resultados.
 
-## Notas importantes
+## Notas
 
-- Algunos talleres descargan datos de internet (por ejemplo, `yfinance` y datasets publicos), asi que requieren conexion.
-- Los notebooks estan pensados para aprendizaje practico y ejecucion secuencial de celdas.
+- Algunos notebooks descargan datos de internet (por ejemplo, con `yfinance`), por lo que requieren conexion.
+- Se recomienda ejecutar las celdas en orden.
 
 ## Autor
 
