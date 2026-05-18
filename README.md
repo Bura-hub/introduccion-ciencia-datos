@@ -7,6 +7,7 @@ Este repositorio contiene:
 - Talleres 1 a 6 (base + solucion).
 - Semana 06 (retos sobre S&P 500, base + solucion).
 - Semana 07 (Modelos ARMA y Filtro de Wiener, base + solucion).
+- Semana 09 (PCA - Principal Component Analysis, base + solucion).
 
 ## Contenido actual
 
@@ -17,9 +18,10 @@ Este repositorio contiene:
 | `Taller_3` | Variables aleatorias continuas y analisis de retornos | `icd_taller3_va_continuas.ipynb` | `Solucion_taller3_va_continuas.ipynb` |
 | `Taller_4` | Estimacion y ajuste de distribuciones | `icd_taller4_estimacion_distribuciones.ipynb` | `Solucion_taller4_estimacion_distribuciones.ipynb` |
 | `Taller_5` | Limpieza de datos con Pandas | `icd_taller5_limpieza_datos.ipynb` | `Solucion_taller5_limpieza_datos.ipynb` |
-| `Taller 6` | Regresion lineal multiple | `icd_taller6_regresion_lineal.ipynb` | `Solucion_taller6_regresion_lineal.ipynb` |
+| `Taller 6` | Regresion lineal multiple | `icd_taller6_regresion_lineal.ipynb` | `Solucion_taller6_Brayan_Lopez_regresion_lineal.ipynb` |
 | `Semana 06 - Retos S&P500` | Retos aplicados al indice S&P 500 | `Ciencia de Datos - Semana 06 - Retos S&P500.ipynb` | `BRAYAN_LOPEZ_Ciencia de Datos - Semana 06 - Retos S&P500.ipynb` |
 | `Semana 07 - Arma & Filtro Wiener` | Modelado ARMA y prediccion con Filtro de Wiener | `Ciencia_de_Datos_Semana_7_Modelos_ARMA.ipynb` y `Ciencia_de_Datos_Semana_07_Filtro_de_Wiener.ipynb` | `BRAYAN_LOPEZ_Ciencia_de_Datos_Semana_7_Modelos_ARMA.ipynb` y `BRAYAN_LOPEZ_Ciencia_de_Datos_Semana_07_Filtro_de_Wiener.ipynb` |
+| `Semana 09` | PCA - Principal Component Analysis | `Ciencia_de_Datos_Semana_09_PCA.ipynb` | `Ciencia_de_Datos_Semana_09_PCA_Brayan_Lopez_BreastCancer.ipynb` |
 
 ## Estado de Semana 07
 
@@ -39,6 +41,7 @@ introduccion-ciencia-datos/
 |-- Taller 6/
 |-- Semana 06 - Retos S&P500/
 |-- Semana 07 - Arma & Filtro Wiener/
+|-- Semana 09/
 |-- env_icd/
 |-- requirements.txt
 `-- README.md
@@ -67,6 +70,7 @@ Dependencias principales declaradas:
 - `scikit-learn`
 - `statsmodels`
 - `yfinance`
+- `plotly`
 
 ## Uso
 
