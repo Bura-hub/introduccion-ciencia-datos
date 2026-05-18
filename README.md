@@ -4,7 +4,7 @@ Repositorio de talleres y soluciones del curso **Introduccion a la Ciencia de Da
 (Maestria en Ingenieria Electronica - Universidad de Narino).
 
 Este repositorio contiene:
-- Talleres 1 a 5 (base + solucion).
+- Talleres 1 a 6 (base + solucion).
 - Semana 06 (retos sobre S&P 500, base + solucion).
 - Semana 07 (Modelos ARMA y Filtro de Wiener, base + solucion).
 
@@ -17,6 +17,7 @@ Este repositorio contiene:
 | `Taller_3` | Variables aleatorias continuas y analisis de retornos | `icd_taller3_va_continuas.ipynb` | `Solucion_taller3_va_continuas.ipynb` |
 | `Taller_4` | Estimacion y ajuste de distribuciones | `icd_taller4_estimacion_distribuciones.ipynb` | `Solucion_taller4_estimacion_distribuciones.ipynb` |
 | `Taller_5` | Limpieza de datos con Pandas | `icd_taller5_limpieza_datos.ipynb` | `Solucion_taller5_limpieza_datos.ipynb` |
+| `Taller 6` | Regresion lineal multiple | `icd_taller6_regresion_lineal.ipynb` | `Solucion_taller6_regresion_lineal.ipynb` |
 | `Semana 06 - Retos S&P500` | Retos aplicados al indice S&P 500 | `Ciencia de Datos - Semana 06 - Retos S&P500.ipynb` | `BRAYAN_LOPEZ_Ciencia de Datos - Semana 06 - Retos S&P500.ipynb` |
 | `Semana 07 - Arma & Filtro Wiener` | Modelado ARMA y prediccion con Filtro de Wiener | `Ciencia_de_Datos_Semana_7_Modelos_ARMA.ipynb` y `Ciencia_de_Datos_Semana_07_Filtro_de_Wiener.ipynb` | `BRAYAN_LOPEZ_Ciencia_de_Datos_Semana_7_Modelos_ARMA.ipynb` y `BRAYAN_LOPEZ_Ciencia_de_Datos_Semana_07_Filtro_de_Wiener.ipynb` |
 
@@ -35,6 +36,7 @@ introduccion-ciencia-datos/
 |-- Taller_3/
 |-- Taller_4/
 |-- Taller_5/
+|-- Taller 6/
 |-- Semana 06 - Retos S&P500/
 |-- Semana 07 - Arma & Filtro Wiener/
 |-- env_icd/
@@ -62,6 +64,7 @@ Dependencias principales declaradas:
 - `pandas`
 - `scipy`
 - `seaborn`
+- `scikit-learn`
 - `statsmodels`
 - `yfinance`
 
